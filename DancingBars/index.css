@@ -1,0 +1,96 @@
+.main{
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(13, 70px);
+    /* grid-template-rows: repeat(2 500px); */
+    color: white;
+    font-size: x-large;
+    text-align: center;
+    align-items: end;
+    
+}
+.bar-1{
+    /* background-color: red; */
+}
+.bar-2{
+    background-color: red;
+
+}
+.bar-3{
+    /* border-color: blue; */
+    /* grid-column-start: ; */
+}
+
+.bar-4{
+    background-color: blue;
+    /* height: 200px; */
+    
+}
+
+.bar-6{
+background-color: green;
+}
+
+.x{
+    animation: xy;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    /* animation-delay: 5s; */
+    /* animation-iteration-count: infinite; */
+    animation-direction: alternate;
+    /* background-color: #000000; */
+        animation-iteration-count: infinite;
+
+}
+
+.xy{
+      animation: x;
+    animation-duration: 5s;
+    animation-timing-function: linear;
+    /* animation-delay: 5s; */
+    /* animation-iteration-count: infinite; */
+    animation-direction: alternate;
+    /* background-color: #000000; */
+        animation-iteration-count: infinite;
+}
+@keyframes xy {
+    0%{
+        height: 200px;
+        background-color: yellow;
+    }
+     50%{
+        height: 400px;
+        background-color: rgb(0, 89, 255);
+    }
+     75%{
+        height: 100px;
+        background-color: rgb(0, 255, 47);
+    }
+     100%{
+        height: 600px;
+        background-color: rgb(64, 0, 182);
+    }
+}
+
+@keyframes x {
+     0%{
+        height: 400px;
+        background-color: rgb(255, 0, 43);
+    }
+     50%{
+        height: 700px;
+        background-color: rgb(0, 89, 255);
+    }
+     75%{
+        height: 100px;
+        background-color: rgb(255, 140, 0);
+    }
+     100%{
+        height: 300px;
+        background-color: rgb(182, 0, 73);
+    }
+}
