@@ -145,8 +145,15 @@ body{
     text-align: left;
     animation: slideFromLeft 1s ease forwards;
     opacity: 0;
-    width: 50%}
+    width: 50%
+}
 
+@media  screen and (max-width: 768px) {
+    .content-left{
+        width: 100%;
+        text-align: center;
+    }
+}
 
 @keyframes  slideFromLeft {
    0%{
