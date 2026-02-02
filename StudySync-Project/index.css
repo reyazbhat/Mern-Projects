@@ -211,8 +211,8 @@ body{
 
 
 .section-image{
-    height: 400px;
-    width: 400px;
+    height: 500px;
+    width: 500px;
     border-radius: 20px;
     animation: imagein 1s;
 }
@@ -228,11 +228,16 @@ body{
 }
 
 .main-section-bottom{
-     display: flex;
+    display: flex;
     flex-direction: column;
     align-items: center;
 }
 
+@media  screen and (max-width:800px) {
+    body .main-section-bottom{
+        display: none;
+    }
+}
 .main-section-bottom-title{
     margin-top: 20px;
    
