@@ -240,19 +240,36 @@ body{
 }
 
 .main-section-bottom-companies-logos{
-    background-color: #808080;
+    /* background-color: #808080; */
     width: 50%;
     display: flex;
     margin-top: 20px;
+    background-color: #9797975d;
+    height: 100px;
+ /* background-color: #808080; */
+ /* height: 400px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    justify-content: space-around;
 }
 
 .companies-logo-name{
     
-    width: 100%;
-    height: 60px;
-    background-color: #2563eb;
+    /* width: 100%;
+    /* height: 60px; */
+    /* background-color: #9797975d; */
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    align-items: center;
+    align-items: center; 
+}
+
+.companies-logo{
+    /* margin-right: 0px; */
+    height: 30px;
+}
+
+.companies-name{
+    margin-left: 5px;
 }
