@@ -278,3 +278,59 @@ body{
 .companies-name{
     margin-left: 5px;
 }
+
+.main-section-bottom-m-view{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+@media screen and (min-width: 800px){
+    .main-section-bottom-m-view{
+        display: none;
+    }
+}
+.bottom-m-view{
+    /* width: 50%; */
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    background-color: #9797975d;
+    height: 100px;
+ /* background-color: #808080; */
+ /* height: 400px; */
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    /* justify-content: space-around; */
+}
+
+.bottom-m-view-1{
+    display: flex;
+    flex-direction: row;
+}
+
+.companies-logo-name-m-view{
+
+}
+
+.companies-logo-name-m-view{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 50px;
+    width: 120px;
+}
+
+.companies-logo-m-view{
+    height: 30px;
+}
+
+.companies-name-m-view{
+    /* margin-left: 5px; */
+}
