@@ -343,3 +343,42 @@ body{
 .main-section-bottom-title-m-view{
     margin-top: 30px;
 }
+
+.cards-box{
+    margin-top: 40px;
+    background-color: #e2e2e2;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+
+.cards-title-box{
+    width: 800px;
+}
+
+.cards-title-top{
+    margin-bottom: 20px;
+}
+
+.cards-title-discription{
+    color: #808080;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    margin-top: 20px;
+    margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    height: 300px;
+    background-color: #2563eb;
+}
