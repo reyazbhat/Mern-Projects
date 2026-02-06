@@ -345,90 +345,100 @@ body{
     margin-top: 30px;
 }
 
+/* ========== CARDS SECTION ========== */
+
 .cards-box{
     margin-top: 40px;
     background-color: #e2e2e2;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
-    padding-top: 30px;
+    padding: 40px 20px;
 }
 
 .cards-title-box{
-    width: 800px;
+    max-width: 900px;
+    text-align: center;
 }
 
 .cards-title-top{
-    margin-bottom: 20px;
+    margin-bottom: 15px;
 }
 
 .cards-title-discription{
     color: #808080;
 }
+
+/* FLEX GRID FOR CARDS */
 .cards{
     display: flex;
-    flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;      /* 🔥 KEY FOR WRAPPING */
     justify-content: center;
+    gap: 20px;
+    max-width: 1200px;
 }
 
+/* INDIVIDUAL CARD */
 .card{
-    margin-top: 30px;
-    margin-left: 30px;
-    width: 400px;
-    height: 250px;
+    width: clamp(280px, 30%, 360px); /* responsive width */
+    min-height: 230px;
     display: flex; 
     flex-direction: column; 
     justify-content: center;
     align-items: center;
     border-radius: 20px;
     color: white;
-    background-color: #2563eb;
-}
-.cards-discription{
-    width: 300px;
-    /* margin-bottom: 10px; */
+    padding: 20px;
 }
 
-.img{
-height: 30px;
-    width: 30px;
-}
+/* ICON CIRCLE */
 .card-img{
     display: flex;
-    flex-direction: row;
     justify-content: center;
     align-items: center;
     background-color: white;
-    height: 50px;
-    width: 50px;
-    border-radius: 25px;
-    /* margin-bottom: 30px; */
+    height: 55px;
+    width: 55px;
+    border-radius: 50%;
 }
 
- .cards-title{
-    font-size: x-large;
+.img{
+    height: 28px;
+    width: 28px;
+}
+
+/* TEXT */
+.cards-title{
+    font-size: 1.3rem;
     font-weight: 600;
-    margin-top: 20px;
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    text-align: center;
 }
 
-.card-1{
-    background-color:#3f83f8 ;
+.cards-discription{
+    width: 90%;
+    text-align: center;
 }
-.card-2{
-    background-color: rgb(178, 17, 164) ;
+
+/* CARD COLORS */
+.card-1{ background-color:#3f83f8; }
+.card-2{ background-color: rgb(178, 17, 164); }
+.card-3{ background-color: rgb(201, 169, 11); }
+.card-4{ background-color: rgb(8, 162, 152); }
+.card-5{ background-color: rgba(22, 121, 22, 0.664); }
+.card-6{ background-color: rgba(80, 41, 127, 0.699); }
+
+/* ========== MOBILE VIEW ========== */
+@media screen and (max-width: 800px) {
+    .cards{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .card{
+        width: 90%;
+        max-width: 500px;
+    }
 }
-.card-3{
-    background-color: rgb(201, 169, 11) ;
-}
-.card-4{
-    background-color: rgb(8, 162, 152) ;
-}
-.card-5{
-    background-color: rgba(22, 121, 22, 0.664) ;
-}
-.card-6{
-    background-color: rgba(80, 41, 127, 0.699) ;
-}
+
