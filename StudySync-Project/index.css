@@ -374,29 +374,22 @@ body{
 }
 
 .card{
-    margin-top: 20px;
-    margin-left: 10px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 500px;
-    height: 300px;
-    background-color: #2563eb;
-}
-
-
-.card{
-   
-    height: 200px;
+    margin-top: 30px;
+    margin-left: 30px;
     width: 400px;
+    height: 250px;
     display: flex; 
     flex-direction: column; 
-    /* justify-content: center; */
+    justify-content: center;
     align-items: center;
     border-radius: 20px;
     color: white;
+    background-color: #2563eb;
 }
-
+.cards-discription{
+    width: 300px;
+    /* margin-bottom: 10px; */
+}
 
 .img{
 height: 30px;
@@ -414,27 +407,28 @@ height: 30px;
     /* margin-bottom: 30px; */
 }
 
-/* .cards-title{
+ .cards-title{
     font-size: x-large;
     font-weight: 600;
-    margin-bottom: 30px;
-}
-
-.cards-discription{
-    width: 350px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
 }
 
 .card-1{
- background-color: #3f83f8;
-}
-
-.card-img{
-    height: 20px;
-    width: 20px;
+    background-color:#3f83f8 ;
 }
 .card-2{
-    background-color: crimson;
-    height: 200px;
-    width: 300px;
-} */ */
+    background-color: rgb(178, 17, 164) ;
+}
+.card-3{
+    background-color: rgb(201, 169, 11) ;
+}
+.card-4{
+    background-color: rgb(8, 162, 152) ;
+}
+.card-5{
+    background-color: rgba(22, 121, 22, 0.664) ;
+}
+.card-6{
+    background-color: rgba(80, 41, 127, 0.699) ;
+}
