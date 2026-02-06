@@ -257,6 +257,7 @@ body{
     padding-right: 30px;
     border-radius: 10px;
     justify-content: space-around;
+    color: #555;
 }
 
 .companies-logo-name{
@@ -320,7 +321,7 @@ body{
 }
 
 .companies-logo-name-m-view{
-
+ color: #555;
 }
 
 .companies-logo-name-m-view{
