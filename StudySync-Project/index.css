@@ -367,6 +367,7 @@ body{
 
 .cards-title-discription{
     color: #808080;
+    margin-bottom: 20px;
 }
 
 /* FLEX GRID FOR CARDS */
@@ -374,14 +375,14 @@ body{
     display: flex;
     flex-wrap: wrap;      /* 🔥 KEY FOR WRAPPING */
     justify-content: center;
-    gap: 20px;
+    /* gap: 20px; */
     max-width: 1200px;
 }
 
 /* INDIVIDUAL CARD */
 .card{
     width: clamp(280px, 30%, 360px); /* responsive width */
-    min-height: 230px;
+    min-height: 200px;
     display: flex; 
     flex-direction: column; 
     justify-content: center;
@@ -389,6 +390,8 @@ body{
     border-radius: 20px;
     color: white;
     padding: 20px;
+    margin-bottom: 30px;
+    margin-left: 30px;
 }
 
 /* ICON CIRCLE */
@@ -437,7 +440,7 @@ body{
     }
 
     .card{
-        width: 90%;
+        width: 100%;
         max-width: 500px;
     }
 }
