@@ -478,3 +478,23 @@ body{
 .testimonial-card-img{
     height: 80px;
 }
+
+.email-section{
+    
+}
+.email-section{
+    align-self: center;
+    margin-top: 40px;
+    height: 400px;
+    width: 1260px;
+    margin-left: 10%;
+    background-color: #92959b;
+}
+
+.email-section-image{
+    width: 500px;
+}
+
+.email-section-image-1{
+    width: 50%;
+}
